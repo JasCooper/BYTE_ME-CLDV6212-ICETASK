@@ -1,6 +1,11 @@
 ﻿namespace ByteMeLogistics.Api.Models
 {
-    public class DeliveryStatus
+    public enum DeliveryStatus
     {
+        Pending,
+        Assigned,
+        InTransit,
+        Delivered,
+        Cancelled
     }
 }
