@@ -1,7 +1,7 @@
 ﻿using ByteMeLogistics.Api.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace ByteMeLogistics.Api.Data
+namespace ByteMeLogistics.Api.DTOs
 {
     public class DeliveryDto
     {
